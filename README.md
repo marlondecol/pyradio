@@ -1,0 +1,5 @@
+# PyRadio
+
+This project comprises a system, developed in [Python](https://www.python.org/), for transmitting modulated audio from a server to connected clients.
+
+Before connecting, each customer can choose between modulating the audio that will be received in [_Amplitude Modulation_ - AM](https://en.wikipedia.org/wiki/Amplitude_modulation), [_Amplitude Modulation with Suppressed Carrier_ - AM-SC](https://en.wikipedia.org/wiki/Double-sideband_suppressed-carrier_transmission) or, if desired, without modulation. Then, the server receives the chosen option, processes the recorded audio from the microphone according to it and transmits the modulated audio to the client through [socket](https://docs.python.org/3/library/socket.html). Finally, when receiving it, the customer demodulates it to the original audio, if necessary, and reproduces it on the speaker.
