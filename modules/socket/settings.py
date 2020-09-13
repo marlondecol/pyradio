@@ -2,7 +2,8 @@
 Default settings for socket connections.
 """
 
-from modules.formatter.colors import RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN
+from modules.formatter.modules.colors import (BLUE, CYAN, GREEN, MAGENTA, RED,
+                                              YELLOW)
 
 # Maximum time for a connection attempt by a client, in seconds.
 ATTEMPT_TIME = 3

@@ -4,9 +4,9 @@ from modules.core.options import connect, set_name
 
 from modules.core.threads import handle_client
 
-from modules.formatter.colors import GREEN
-
 from modules.formatter.formatter import Formatter as F
+
+from modules.formatter.modules.colors import GREEN
 
 from modules.socket.client import Client
 

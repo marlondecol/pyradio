@@ -1,0 +1,3 @@
+[submodule ".\\modules\\formatter"]
+	path = .\\modules\\formatter
+	url = git@github.com:mlc2307/python-formatter.git
