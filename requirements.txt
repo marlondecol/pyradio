@@ -1,8 +1,0 @@
-cffi==1.14.0
-emoji==0.5.4
-nptyping==1.0.1
-numpy==1.18.3
-pycparser==2.20
-scipy==1.10.0
-sounddevice==0.3.15
-typish==1.6.0
